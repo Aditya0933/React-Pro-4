@@ -25,7 +25,7 @@ const Testimonial =(propes)=>{
         setIndex(randomIndex)
     }
     return(
-        <div className="w-[85vw] md-[700px] bg-white flex flex-col justify-center items-center mt-10 pd-10 transition-all duration-700 hover:shadow-xl rounded-md ">
+        <div className="w-[85vw] md-[700px] bg-white flex flex-col justify-center items-center mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md ">
             <Card review={review[index]}></Card>
             <div className='text-center flex text-3xl mt-10 gap-3 text-violet-400 font-bold'>
                 <button onClick={leftShiftHandler} className='cursor-pointer hover:text-violet-500'><FiChevronLeft/></button>
